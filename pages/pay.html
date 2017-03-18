@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付页</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/pay.css">
+</head>
+<body>
+	<header>
+		<div class="header-inner">
+			<img src="../images/aimei2_04.jpg" alt="">
+		</div>				
+	</header>
+	<nav>
+		<div class="nav-inner">
+			<ul>
+				<li><a href="../index.html"  target="_blank">首页</a></li>
+				<li><a href="list.html">逛街啦</a></li>
+				<li><a href="#">杂志社</a></li>
+				<li><a href="#">搭配秀</a></li>
+				<li><a href="#">达人</a></li>
+				<li><a href="#">好店</a></li>
+			</ul>
+			<div class="nav_right">
+				<img src="../images/touxiang_03.jpg" alt="">
+				<img src="../images/nicheng_06.jpg" alt="">
+				<img src="../images/zazhishe_07.jpg" alt="">
+				<img src="../images/like_08.jpg" alt="">
+				<a href="#">退出</a>
+				<a href="#">邀请</a>
+				<a href="#">消息(1)</a>
+				<a href="#">设置</a>
+			</div>			
+		</div>	
+	</nav>
+	<div class="nav_footer"></div>
+
+	<div class="main">
+		<div class="process">
+			<img src="../images/fangxiangbiao_03.jpg" alt="">
+		</div>
+		<div class="address clearfix">
+			<h4>确认收货地址<a href="#">管理收货地址</a></h4>
+			<ul class="ad">
+				<li>
+					<input type="radio" name="add" checked="checked" class="add add1">
+					<span class="dizhi">河北省 秦皇岛市 海港区</span>
+					<span>&nbsp;默认地址</span>
+					<a href="#">修改本地址</a>
+				</li>
+				<li>
+					<input type="radio" name="add" class="add add2">
+					<span class="dizhi">上海 上海市 浦东新区 张江高科技园博霞路</span>
+					<span>（</span>
+					<input type="text" class="mans">
+					<span>收）</span>
+					<a href="#">修改本地址</a>
+				</li>
+			</ul>
+			<a href="#">使用其他地址</a>
+			<a href="#">使用代收货(自提)</a>
+		</div>
+		<div class="order clearfix">
+			<h4>确认订单信息</h4>
+			<div class="title clearfix">
+				<p>店铺宝贝</p>
+				<p>单价(元)<span>数量</span></p>
+				<p>优惠方式(元)</p>
+				<p>小计(元)</p>
+			</div>
+			<div class="shop">
+				<input type="checkbox" class="selected quanxuan">
+				<span>全选</span>
+				<ul class="stor">
+					<li class="clearfix li1">
+						<input type="checkbox" class="selected">
+						<p>店铺：<a href="#">【Camille卡蜜拉女装部落】</a></p>
+						<p>卖家：<a href="#">xuedonger118 </a><a href="#"><img src="../images/aliww_03.jpg" alt=""></a></p>						
+					</li>
+					<li class="clearfix li2 li">
+						<input class="selected seleted first" type="checkbox">
+						<img src="../images/shopcloth1_03.jpg" alt="">
+						<div class="li-left">
+							<a href="#">韩国2013新款女装 韩版超级显瘦雪纺连衣裙无袖修身气质小清新</a>
+							<span>颜色分类：黄色艳丽  尺码：S（360度旋转）</span><br><br><br>
+							<img src="../images/yellowflowes_06.jpg" alt="">
+						</div>
+						<span class="unit-price">110.00</span>		
+						<a href="#" class="jian">-</a>
+						<input type="text" class="num" value="1">
+						<a href="#" class="jia">+</a>
+						<select name="discount" id="discount">
+							<option value="">新品好评7折</option>
+							<option value="">新品8折</option>
+						</select>
+						<span class="xiaoji">77.00</span>
+					</li>
+					<li class="clearfix li3 li">
+						<input type="checkbox" class="selected first">
+						<p>给卖家留言：<input type="text" placeholder="选填，可以告诉卖家您对商品的特殊要求，如：颜色、尺码等"></p>
+						<span>运送方式：</span>
+						<select name="express" id="express">
+							<option value="">普通快递10.00元</option>	
+							<option value="">顺丰隔天20.00元</option>
+							<option value="">顺丰当天30.00元</option>
+						</select>
+						<span class="xiaoji">10.00</span>
+						<p>店铺合计(含运费)：<span>¥ </span><span class="zongji">87.00</span></p>
+					</li>
+				</ul>
+			</div>
+			<p><input type="checkbox">匿名购买</p>
+			<p><input type="checkbox">找人代付</p>
+			<div class="all">
+				<p>实付款：<span>¥ </span><span class="zongji">87.00</span></p>
+				<p>寄送至：<span class="addre">河北省 秦皇岛市 海港区</span></p>
+				<p>收货人：<span class="man"></span></p>
+				<a href="#" class="submit">提交订单</a>
+			</div>
+			<p><img src="../images/dengpao_21.jpg" alt=""> 若价格变动，请在提交订单后联系卖家改价，并查看已买到的宝贝</p>
+		</div>
+	</div>
+
+	<footer>
+		<a href="#">网站</a>
+		<a href="#">关注我们</a>
+		<ul class="list1">
+			<li><a href="#">首页</a></li>
+			<li><a href="#">逛街啦</a></li>
+			<li><a href="#">杂志社</a></li>
+			<li><a href="#">搭配秀</a></li>
+			<li><a href="#">达人</a></li>
+			<li><a href="#">好店</a></li>
+		</ul>
+		<ul class="list2">
+			<li>
+				<a href="#">
+					<img src="../images/xlwb_03.jpg" alt=""> 新浪微博
+				</a>
+			</li>
+		</ul>
+		<img src="../images/logo2_06.jpg" alt="">
+		<div class="friendship">
+			<p>友情链接：<a href="#">TWICE旗舰店 </a> <a href="#"> 迪亚兹旗舰店</a></p>
+			<a href="#">更多</a>
+		</div>
+		<div class="copy">
+			<p>Copyright2012 云美丽 Meilibabys.com 京ICP备 12008870号-1</p>
+		</div>
+	</footer>
+
+	<script src="../js/jquery-3.0.0.js"></script>
+	<script src="../js/pay.js"></script>
+</body>
+</html>

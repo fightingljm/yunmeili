@@ -1,0 +1,103 @@
+body{background-color: #f3e8dc;width: 100%;}
+
+header{width: 100%;background-image: url(../images/header_bg_02.jpg);}
+.header-inner{width: 960px;margin: 0 auto;}
+header input{float: right;width: 211px;line-height: 20px;margin-top: 30px;}
+header a img{float: right;margin-top: 30px;}
+nav{width: 100%;background-color: #ff6c92;overflow: hidden;}
+.nav-inner{width: 960px;margin: 0 auto;background-color: #ff6c92;overflow: hidden;}
+nav ul li{float: left;margin-right: 30px;line-height: 38px;}
+nav ul li a{text-decoration: none;color: white;font-weight: bold;}
+.nav-inner ul li:nth-child(2) a {color: #8c0e41;}
+nav .nav_right{width: 430px;float: right;font-size:0;}
+nav .nav_right img{margin-top: 4px;cursor: pointer;}
+nav .nav_right a{display: block;text-decoration: none;color: white;line-height: 38px;float: right;font-size: 13px;margin-right: 12px;}
+.nav_footer{width: 100%;height: 37px;background-image: url(../images/yun_10.jpg);}
+.mid{width: 960px;background-color: #f3e8dc;margin: 0 auto;overflow: hidden;}
+.mid .mid-nav{width: 958px;background-color: white;border-radius: 5px;overflow: hidden;margin: 16px auto;padding: 11px 0;}
+.mid .mid-nav ul li{float: left;padding:0 24px;line-height: 20px;border-right: 1px solid #ccc;position: relative;}
+.mid .mid-nav ul li .img{position: absolute;left: 32px;top: 23px;}
+.mid .mid-nav ul li .appear{display: none;}
+
+
+.mid .mid-nav ul li a{text-decoration: none;color: black;}
+.mid .mid-nav ul li .yanse{color: #ff6699;}
+.mid .mid-fot{width: 958px;background-color: white;border-radius: 5px;overflow: hidden;margin: 0 auto;padding: 11px 0;}
+.mid .app{display: none;}
+
+.mid .mid-fot>div{float: left;margin-right: 25px;}
+.mid .mid-fot>div>a{display: block;text-decoration: none;line-height: 45px;color: #ffa2c0;font-family: "微软雅黑";}
+.mid .mid-fot div:nth-child(1){margin-left: 15px;}
+.mid .mid-fot>div>ul>li{float: left;}
+.mid .mid-fot>div>ul>li>a{display: block;width: 56px;text-decoration: none;color: black;font-size: 14px;line-height: 25px;}
+.clothes{width: 960px;background-color: #f3e8dc;margin: 0 auto;overflow: hidden;}
+.clothes>.c-top{width: 960px;padding:20px ;float: left;}
+.clothes>.c-top>span{width: 62px;float: left;font-size: 30px;color: #4caad5;}
+.clothes>.c-top>.sort{width: 135px;float: left;line-height: 30px;margin-left: 20px;}
+.clothes>.c-top>.sort>span{float: left;}
+.clothes>.c-top>.sort>.but{width: 83px;float: left;line-height: 21px;margin-top: 5px;}
+.clothes>.c-top>.sort>.but>a{display: block;background: linear-gradient(#fff,#ededed);border: 1px solid #cecac6;float: left;padding:0 8px;font-size: 12px;text-decoration: none;line-height: 21px;color: #888888}
+.clothes>.c-top>.sort>.but>a:first-child{border-radius:10px 0 0 10px;background: linear-gradient(#fff,#ffe3ee);color: #ff70a7;border: 1px solid #ffc2d9;border-right: none;}
+.clothes>.c-top>.sort>.but>a:last-child{border-radius:0 10px 10px 0;}
+
+
+.clothes>.c-top>.price{width: 265px;float: left;line-height: 30px;margin-left: 20px;}
+.clothes>.c-top>.price>span{float: left;}
+.clothes>.c-top>.price>.but{width: 215px;float: left;line-height: 21px;margin-top: 5px;}
+.clothes>.c-top>.price>.but>a{border: 1px solid #cecac6;display: block;float: left;padding:0 7px;background: linear-gradient(#fff,#ededed);font-size: 12px;text-decoration: none;line-height: 21px;border-right: 1px solid #ccc;color: #888888}
+.clothes>.c-top>.price>.but>a{border-right: none;}
+.clothes>.c-top>.price>.but>a:last-child{border-radius:0 10px 10px 0;}
+.clothes>.c-top>.price>.but>a:first-child{border-radius:10px 0 0 10px;background: linear-gradient(#fff,#ffe3ee);color: #ff70a7;border: 1px solid #ffc2d9;}
+
+.clothes>.c-top>.color{width: 288px;float: left;line-height: 30px;margin-left: 20px;}
+.clothes>.c-top>.color>span{float: left;}
+.clothes>.c-top>.color>.but{width: 229px;float: left;line-height: 21px;margin-top: 5px;}
+.clothes>.c-top>.color>.but>a{display: block;border: 1px solid #cecac6;background: linear-gradient(#fff,#ededed);float: left;padding:0 7px;font-size: 12px;text-decoration: none;line-height: 21px;border-right: 1px solid #ccc;}
+.clothes>.c-top>.color>.but>a{border-right: none;}
+.clothes>.c-top>.color>.but>a:last-child{border-radius:0 10px 10px 0;}
+.clothes>.c-top>.color>.but>a:first-child{border-radius:10px 0 0 10px;}
+.clothes>.c-top>.color>.but>a>img{padding-top: 3px;}
+
+.clothes>.c-fot{clear: both;width: 960px;}
+.clothes>.c-fot ul{width: 960px;}
+.clothes>.c-fot ul li{width: 222px;margin-right: 20px;float: left;}
+.clothes>.c-fot ul li:first-child{margin-left: 3px;}
+.clothes>.c-fot ul li:last-child{margin-right: 3px;}
+.clothes>.c-fot ul li .box{background-color: #fff;padding-top: 10px;border-radius: 5px;width: 227px;margin:0 auto;margin-bottom: 15px;}
+.clothes>.c-fot ul li .box1{margin-bottom: 66px;position: relative;padding-bottom: 3px;}
+.clothes>.c-fot ul li .box1 a{text-decoration: none;}
+.clothes>.c-fot ul li .box1>a{display: block;width: 53px;line-height: 23px;color: white;text-align: center;background-color: #ff4c70;border-radius: 5px;font-size: 13px;position: absolute;top: 269px;left: 157px;}
+.clothes>.c-fot ul li .box1>p{width: 33px;line-height: 13px;color: white;text-align: center;background-color: #9d9176;border-radius: 3px;font-size: 12px;position: absolute;top: 280px;left: 167px;}
+.clothes>.c-fot ul li .box>img{margin-left: 13px;cursor: pointer;}
+.clothes>.c-fot ul li .box1 .box-mid{width: 201px;margin: 0 auto;padding: 10px 0;}
+.clothes>.c-fot ul li .box1 .box-mid>a{float: left;display: block;width: 58px;line-height: 23px;background-color: #ff87b5;text-align: center;color: white;border-radius: 5px;margin-right: 3px;font-size: 13px;}
+.clothes>.c-fot ul li .box1 .box-mid>a>i{color: white;}
+.clothes>.c-fot ul li .box1 .box-mid>span{float: left;width: 31px;line-height: 21px;border: 1px solid #ff6aa1;border-radius: 5px;color: #ff6aa1;margin-right: 25px;text-align: center;}
+.clothes>.c-fot ul li .box1 .box-mid>p{color: #ff6aa1;font-size: 13px;line-height: 23px;}
+.clothes>.c-fot ul li .box1 .box-mid>p>span{text-decoration: underline;}
+.clothes>.c-fot ul li .box1 .box-fot{width: 222px;background-color: #f7f7f7;margin: 0 auto;}
+.clothes>.c-fot ul li .box1 .box-fot p{font-size: 13px;line-height: 20px;}
+.box>p{width: 202px;font-size: 13px;margin: 15px auto;color: #727272}
+.box>.box_fot{width: 225px;background-color: #f7f7f7;}
+.box>.box_fot>img{float: left;margin: 5px 10px;}
+.box>.box_fot>p{font-size: 13px;line-height: 20px;color: #727272}
+.box>.box_fot>p>span{font-size: 14px;font-weight: bold;}
+.clothes>.yema{width: 384px;line-height: 79px;margin: 20px 290px;}
+.clothes>.yema a{text-decoration: none;display: block;float: left;border: 1px solid #edccd5;width: 22px;line-height: 22px;margin-right: 5px;text-align: center;}
+.clothes>.yema a:last-child{width: 57px;}
+.clothes>.yema a:first-child{color: #db84a7;border: 1px solid #fff;}
+
+footer{width: 960px;height: 330px;background-color: #fff;border-radius: 10px 10px 0 0;margin: 0 auto;border: 1px solid #ccc;}
+footer a{text-decoration: none;}
+footer>a{display: block;float: left;margin-top: 25px;margin-left: 25px;margin-right: 60px;color: #72bcde;font-size: 14px;}
+footer>.list1{clear: both;width: 100px;padding-top: 25px;padding-left: 35px;font-size: 12px;color: #666;float: left;}
+footer>.list1 a,footer>.list2 a{color: #666;}
+footer>.list1>li{list-style-type: disc;}
+footer>.list2>li{width: 75px;line-height: 20px;font-size: 12px;color: #666;}
+footer>.list2{width: 75px;float: left;padding-top: 25px;}
+footer>img{margin-top: -99px;margin-left: 866px;}
+footer>.friendship{width: 960px;line-height: 38px;border-top: 1px #ccc dashed;border-bottom: 1px #ccc dashed;overflow: hidden;font-size: 13px;color: #666;margin-top: 45px;}
+footer>.friendship>p{float: left;margin-right: 658px;margin-left: 20px;}
+footer>.friendship a{color: #666;}
+footer>.copy{width: 960px;line-height: 70px;text-align: center;}
+footer>.copy>p{color: #666;font-size: 13px;}
